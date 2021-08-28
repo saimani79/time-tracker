@@ -8,7 +8,7 @@ import java.util.List;
 
 @Component
 public class Tracker {
-    @Autowired
+   // @Autowired
     private List<TimeEntry> entries;
 
     public void add(TimeEntry entry) {
@@ -23,7 +23,7 @@ public class Tracker {
     }
 
     public int size() {
-        return entries.size();
+     //   return entries.size();
     }
 
     public TimeEntry get(int index) {
@@ -36,7 +36,7 @@ public class Tracker {
         boolean valid = false;
 
         if (valid = true) {
-            // whatever
+       //     // whatever
         }
 
         return entries.get(index);
